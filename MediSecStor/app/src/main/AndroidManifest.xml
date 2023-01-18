@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.karan.medisecstor">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen"
+        android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeViewExl" />
+        <activity android:name=".HomeViewPdf" />
+        <activity android:name=".HomeViewPpt" />
+        <activity android:name=".HomeViewDoc" />
+        <activity android:name=".HomeViewFile" />
+        <activity android:name=".HomeViewAudio" />
+        <activity android:name=".HomeViewVid" />
+        <activity android:name=".HomeViewImg" />
+        <activity android:name=".HomeSelExl" />
+        <activity android:name=".HomeSelPpt" />
+        <activity android:name=".HomeSelPdf" />
+        <activity android:name=".HomeSelDoc" />
+        <activity android:name=".HomeSelFile" />
+        <activity
+            android:name=".HomeFiles"
+            android:label="@string/title_activity_home_files"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeAudio"
+            android:label="@string/title_activity_home_audio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeVideo"
+            android:label="@string/title_activity_home_video"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeImage"
+            android:label="@string/title_activity_home_image"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg4"
+    tools:context=".HomeSelFile">
+
+    <Button
+        android:id="@+id/seldoc"
+        android:layout_width="267dp"
+        android:layout_height="78dp"
+        android:text="DOC"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/roundbuttonview"
+        />
+
+    <Button
+        android:id="@+id/selppt"
+        android:layout_width="267dp"
+        android:layout_height="78dp"
+        android:text="PPT"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/roundbuttonview"
+        />
+
+    <Button
+        android:id="@+id/selpdf"
+        android:layout_width="267dp"
+        android:layout_height="78dp"
+        android:text="PDF"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/roundbuttonview"
+        />
+    <Button
+        android:id="@+id/selexl"
+        android:layout_width="267dp"
+        android:layout_height="78dp"
+        android:text="XLS"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/roundbuttonview"
+        />
+
+</LinearLayout>

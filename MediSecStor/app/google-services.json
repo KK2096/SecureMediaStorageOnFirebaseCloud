@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "917202792308",
+    "project_id": "medsecsto",
+    "storage_bucket": "medsecsto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917202792308:android:61bf314d5d480daeca4621",
+        "android_client_info": {
+          "package_name": "com.karan.medisecstor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917202792308-sj9m0amonijqqepdfpkga5ppf90mbcs6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karan.medisecstor",
+            "certificate_hash": "7645e9ea60a36046393df33a4e56c1421d31a6ba"
+          }
+        },
+        {
+          "client_id": "917202792308-g9femgsduhcld6rp04bhqmb7lgb8u7um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAByl3M4DTri4DMCQIzGh6K_lt0hcjkgWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917202792308-g9femgsduhcld6rp04bhqmb7lgb8u7um.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
